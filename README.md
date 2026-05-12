@@ -1,4 +1,4 @@
-# Whitted-Style 光线追踪
+# 光线追踪实验
 
 **注意**：视频加载需要时间
 
@@ -21,8 +21,8 @@
 cg_lab5/
 ├── src/
 │   └── Work5/
-│       ├── test.py            # 基础模式（光线追踪基础）
-│       └── advanced.py        # 高级模式（玻璃材质 + MSAA）
+│       ├── test.py            # 基础光线追踪
+│       └── advanced.py        # 玻璃材质 + MSAA
 ├── .gitignore         
 ├── README.md          # 项目说明文档
 └── imgui.ini          # ImGui 配置文件
@@ -33,12 +33,11 @@ cg_lab5/
 ### 1. 创建并激活虚拟环境
 
 ```bash
-# 使用 uv 创建虚拟环境
-uv init
+# 创建环境，指定 Python 3.12
+conda create -n cg_env python=3.12 -y
 
-# 激活虚拟环境
-source .venv/bin/activate  # Linux/Mac
-.venv\Scripts\activate     # Windows
+# 激活环境
+conda activate cg_env 
 ```
 
 ### 2. 安装依赖
@@ -47,8 +46,10 @@ source .venv/bin/activate  # Linux/Mac
 
 ```bash
 # 安装依赖
-uv add taichi
+pip install taichi
 ```
+
+### 3.IDE配置
 
 ## 🎮 使用方法
 
@@ -189,9 +190,3 @@ $$\mathbf{P}_{new} = \mathbf{P} + \mathbf{N} \times \epsilon$$
 1. **Python 3.8+**
 2. **Taichi 1.7.4+**：用于并行计算和 GUI 渲染
 
-## ⚠️ 注意事项
-
-- **向量归一化**：参与点乘的 N、L、V 必须是单位向量
-- **负值处理**：使用 `ti.max(0.0, dot_product)` 截断负值，避免非法运算
-- **颜色限制**：使用 `ti.math.clamp(color, 0.0, 1.0)` 将颜色强制限制在合法区间内
-- **精度问题**：射线起点必须沿法线偏移以避免自相交
