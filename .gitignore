@@ -1,0 +1,48 @@
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+
+# uv package manager
+.uv/
+uv.lock
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Testing
+.tox/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Static type checking
+.mypy_cache/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
