@@ -95,6 +95,11 @@ uv run python src/Work5/advanced.py
 4. **银色镜面球**：位于右侧 (1.5, 0.0, 0)，半径 1.0，完美反射
 5. **点光源**：可调节位置，白色光 (1.0, 1.0, 1.0)
    
+<img width="804" height="660" alt="image" src="https://github.com/user-attachments/assets/54744491-e53e-49b9-a4fb-b834a319eea6" />
+
+<img width="804" height="660" alt="aae82ad8fb3157ed871103334ee81c2" src="https://github.com/user-attachments/assets/7520bf6f-658d-447a-a991-70231abbc4b4" />
+
+
 
 ### 渲染效果对比
 
