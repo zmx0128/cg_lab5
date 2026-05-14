@@ -98,7 +98,7 @@ uv run python src/Work5/advanced.py
 <img width="804" height="660" alt="cg5 3" src="https://github.com/user-attachments/assets/bb4d8e11-2268-43a9-9a07-bffaf944742a" />
 
 <img width="804" height="660" alt="cg" src="https://github.com/user-attachments/assets/2eaa6ea8-d3c5-44d2-b38f-2a0e380e1c31" />
-<img width="804" height="660" alt="cg5 2" src="https://github.com/user-attachments/assets/4958af10-eebf-485e-86cd-648eca84435b" />
+
 
 
 ### 渲染效果对比
