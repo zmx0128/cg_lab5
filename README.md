@@ -1,9 +1,3 @@
-<img width="804" height="660" alt="cg" src="https://github.com/user-attachments/assets/20c40193-a15a-4fb8-9e69-db92c2a9ef88" />
-<img width="804" height="660" alt="cg" src="https://github.com/user-attachments/assets/70bfc502-ddb8-4e7a-ab11-b04b2128784c" />
-
-
-
-
 # 光线追踪实验
 
 **注意**：图像加载需要时间
@@ -103,7 +97,7 @@ uv run python src/Work5/advanced.py
 
 <img width="804" height="660" alt="cg5 3" src="https://github.com/user-attachments/assets/bb4d8e11-2268-43a9-9a07-bffaf944742a" />
 
-
+<img width="804" height="660" alt="cg" src="https://github.com/user-attachments/assets/2eaa6ea8-d3c5-44d2-b38f-2a0e380e1c31" />
 <img width="804" height="660" alt="cg5 2" src="https://github.com/user-attachments/assets/4958af10-eebf-485e-86cd-648eca84435b" />
 
 
