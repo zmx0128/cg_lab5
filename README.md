@@ -1,4 +1,6 @@
-<img width="804" height="660" alt="cg5 3" src="https://github.com/user-attachments/assets/5ff7d70c-b97f-4c4c-b59e-6482a0cac44c" />
+
+
+
 # 光线追踪实验
 
 **注意**：图像加载需要时间
